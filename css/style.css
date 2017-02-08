@@ -1,0 +1,195 @@
+/*==============FONTS==================*/
+
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Overlock|Courgette');
+
+h1 {
+  font-family:'Satisfy', cursive;
+}
+
+p, h4, main>h2 {
+    font-family: 'Overlock', cursive;
+}
+
+ul, h2 {
+    font-family: 'Courgette', cursive;
+}
+
+/*=============UNIVERSALS===============*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blue-background {
+    background-color: #001322;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.inline-block {
+    display: inline-block;    
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+/*=============HEADER===================*/
+header {
+    padding: 30px 20px;
+    height: 5.75%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+span h4 {
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 11px;
+}
+
+li {
+    margin: 0 15px;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header>ul>li {
+    border-radius: 15px 15px 0 0 ;
+    background-color: #123F60;
+    padding: 20px;
+}
+
+/*===================HERO========================*/
+
+#hero {
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/ocean-pic.jpg");
+    background-size: cover;
+    border-bottom: 4px solid #fff;
+    margin-top: 7%;
+}
+
+#hero h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 35px;
+}
+
+/*===============SOUND CLIP=====================*/
+
+audio {
+    margin-top: 20px;
+}
+
+
+/*==================ASIDE========================*/
+aside {
+    width: 29.5%;
+    border-right: 2px solid #fff;
+    background-color: #93B7D0; 
+}
+
+aside h2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#blog-links {
+    padding-left: 0;
+}
+
+.blog-link {
+    padding: 5px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.blog-link>h5>a {
+    font-size: 18px;
+} 
+
+.blog-link:hover {
+    background-color: #FFDE0a;
+}
+
+aside, main {
+    height: 425px;
+}
+
+/*================MAIN SECTION==================*/
+main {
+    width: 68%;
+    background-color: #CD6651;
+    padding: 0 10px;
+}
+
+main p a {
+    color: #fff;
+    font-size: 20px;
+}
+
+#main-content-paragraph {
+    display: inline-block;
+}
+
+.pull-left {
+    float: left;
+    padding-right: 10px;
+}
+
+.pull-right {
+    float: right;
+}
+
+main h2, main h4 {
+    text-align: center;
+}
+
+
+/*====================FOOTER=====================*/
+
+footer {
+    height: 150px;
+    background-color: #000;
+    clear: both;
+    border-top: 4px solid #fff;
+}
+
+#social-media-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+a .fa {
+    color: #fff;
+    padding: 20px;
+}
+
+#copyright {
+    color: #fff;
+    text-align: center;
+}

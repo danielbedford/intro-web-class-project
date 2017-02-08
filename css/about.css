@@ -1,0 +1,29 @@
+/*=============ABOUT HERO SECTION=============*/
+#about-hero {
+    background-image: url('../img/ocean-pic-2.jpg');
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+}
+
+/*=============COLUMNS SECTION=============*/
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+.column h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.column>p {
+    text-align: justify;
+    padding: 8px;
+}
+
+
+button>a {
+    color: #fff;
+}
